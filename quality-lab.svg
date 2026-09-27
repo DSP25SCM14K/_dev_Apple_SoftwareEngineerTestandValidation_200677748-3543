@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+ <defs><linearGradient id="wave" x1="180" y1="500" x2="1510" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#C0F77E" stop-opacity="0"/><stop offset=".45" stop-color="#C0F77E" stop-opacity=".75"/><stop offset=".8" stop-color="#E2A67F" stop-opacity=".48"/><stop offset="1" stop-color="#E2A67F" stop-opacity="0"/></linearGradient><radialGradient id="halo"><stop stop-color="#91C477" stop-opacity=".17"/><stop offset="1" stop-color="#91C477" stop-opacity="0"/></radialGradient><filter id="blur"><feGaussianBlur stdDeviation="34"/></filter></defs>
+ <ellipse cx="1080" cy="500" rx="500" ry="250" fill="url(#halo)" filter="url(#blur)"/>
+ <path d="M65 505h180l36-20 33 42 31-72 35 93 39-62 38 18h107l39-35 34 64 34-90 37 62 35-16h155l42-31 41 63 36-99 39 75 39-28h233" stroke="url(#wave)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 11"/>
+ <path d="M70 570c180-145 280-145 450 0s280 145 450 0 280-145 550 0" stroke="#C0F77E" stroke-opacity=".18" stroke-width="1.2"/>
+ <path d="M80 430c180 145 280 145 450 0s280-145 450 0 280 145 550 0" stroke="#E2A67F" stroke-opacity=".12" stroke-width="1.2"/>
+ <g stroke="#C0F77E" stroke-opacity=".2"><circle cx="1090" cy="500" r="280"/><circle cx="1090" cy="500" r="365" stroke-dasharray="2 14"/><circle cx="1090" cy="500" r="450"/></g>
+ <g fill="#D6FFAA"><circle r="5"><animateMotion dur="9s" repeatCount="indefinite" path="M65 505h180l36-20 33 42 31-72 35 93 39-62 38 18h107l39-35 34 64 34-90 37 62 35-16h155l42-31 41 63 36-99 39 75 39-28h233"/></circle><circle r="3" fill="#FFC39E"><animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M70 570c180-145 280-145 450 0s280 145 450 0 280-145 550 0"/></circle></g>
+ <g stroke="#C0F77E" stroke-opacity=".12"><rect x="600" y="230" width="125" height="92" rx="11"/><rect x="910" y="625" width="135" height="96" rx="11"/><rect x="1190" y="275" width="138" height="100" rx="11"/><path d="M617 301l22-34 19 23 17-27 31 38H617Zm310 55 23-33 18 22 18-27 32 38H927Zm280-18 25-39 22 26 20-32 34 45h-101Z" fill="#C0F77E" fill-opacity=".09"/></g>
+</svg>
